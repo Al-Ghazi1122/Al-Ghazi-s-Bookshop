@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,18 +13,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <!-- Navigation Links-->
-     <!----
+    <!----
     <a href="index.html">Home</a>
     <a href="AboutUs.html">About Us</a>
     <a href="ContactUs.html">Contact Us</a>
     -->
 </head>
+
 <body>
     <header>
         <nav>
             <div class="logo">Al Ghazi's Bookstore</div>
-         
-            <ul class="nav-links"> 
+
+            <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="AboutUs.html">About Us</a></li>
                 <li><a href="ContactUs.html">Contact Us</a></li>
@@ -40,14 +42,15 @@
         </nav>
     </header>
 
-    <div class="mobile-nav" id="mobileNav">
-        <div class="close-menu"> 
+    <div class="mobile-nav active" id="mobileNav">
+        <div class="close-menu">
             <i class="fas fa-times " onclick="toggleMenu()"></i>
-                <a href="index.html">Home</a>
-                <a href="AboutUs.html">About Us</a>
-                <a href="ContactUs.html">Contact Us</a>
-                <a href="cart.html">Books</a>
         </div>
+        <a href="index.html">Home</a>
+        <a href="AboutUs.html">About Us</a>
+        <a href="ContactUs.html">Contact Us</a>
+        <a href="cart.html">Books</a>
+
     </div>
 
     <!-- Hero Section -->
@@ -57,7 +60,7 @@
             <p>Discover a world where every page brings a new adventure</p>
             <button class="btn">Explore Now <i class="fas fa-arrow-right"></i></button>
         </div>
-        
+
         <div class="book-slider-container">
             <div class="book-slider">
                 <div class="book-card"><img src="images/Aesthetic3.avif" alt="Aesthetic Book Cover 1"></div>
@@ -81,7 +84,7 @@
             <span>Author Two</span>
         </div>
 
-                <div class="author-card">
+        <div class="author-card">
             <img src="images/Author3.webp" alt="Author Three">
             <span>Author Three</span>
         </div>
@@ -91,12 +94,12 @@
             <span>Author Four</span>
         </div>
 
-                <div class="author-card">
+        <div class="author-card">
             <img src="images/Author5.jpg" alt="Author Five">
             <span>Author Five</span>
         </div>
 
-                <div class="author-card">
+        <div class="author-card">
             <img src="images/Author6.webp" alt="Author Six">
             <span>Author Six</span>
         </div>
@@ -105,17 +108,18 @@
     </section>
 
     <!-- Recommended Books Section -->
-     <section class="recommended" id="shop">
+    <section class="recommended" id="shop">
         <div class="section-header">
             <h2>Recommended Books</h2>
             <a href="#" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
         </div>
 
-        <div class="book-grid">
+        <div class="books-grid">
             <div class="book-item">
                 <img src="images/The Alchemist.jpg" alt="The Alchemist Cover">
                 <h3>The Alchemist</h3>
                 <p>by Paulo Coelho</p>
+                <p>A guide about following your dreams and pursuing your personal legend.</p>
                 <div class="rating">★★★★★</div>
                 <div class="price">£20.99</div>
                 <button class="add-to-cart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
@@ -126,6 +130,7 @@
                 <img src="images/Loving-Allahs-Beloved.webp" alt="The Prophet's (PBUH) Mosque's Dome as the Book Cover">
                 <h3>Loving Allah's Beloved</h3>
                 <p>by Life with Allah</p>
+                <p>Discover the joy of loving Allah's beloved with this inspiring guide.</p>
                 <div class="rating">★★★★☆</div>
                 <div class="price">£19.99</div>
                 <button class="add-to-cart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
@@ -135,6 +140,7 @@
                 <img src="images/Atomic_Habits.webp" alt="Atomic Habits Book Cover">
                 <h3>Atomic Habits</h3>
                 <p>by James Clear</p>
+                <p>1% better every day</p>
                 <div class="rating">★★★★★</div>
                 <div class="price">£19.99</div>
                 <button class="add-to-cart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
@@ -144,15 +150,19 @@
                 <img src="images/Can't_Hurt_Me.webp" alt="Can't Hurt Me Book Cover">
                 <h3>Can't Hurt Me</h3>
                 <p>by David Goggins</p>
+                <p>Master Your Mind and Defy the Odds.</p>
+                <p>Acquire Iron WillPower. Ack!</p>
                 <div class="rating">★★★★★</div>
                 <div class="price">£19.99</div>
                 <button class="add-to-cart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
             </div>
 
             <div class="book-item">
-                <img src="images/How To Win Friends & Influence People.jpg" alt="How To Win Friends & Influence People Book Cover">
+                <img src="images/How To Win Friends & Influence People.jpg"
+                    alt="How To Win Friends & Influence People Book Cover">
                 <h3>How To Win Friends & Influence People</h3>
                 <p>by Dale Carnegie</p>
+                <p>Master the art of communication and acquire verbal mastery.</p>
                 <div class="rating">★★★★★</div>
                 <div class="price">£19.99</div>
                 <button class="add-to-cart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
@@ -162,14 +172,36 @@
                 <img src="images/RichDad_PoorDad.jpg" alt="Rich Dad Poor Dad Book Cover">
                 <h3>Rich Dad Poor Dad</h3>
                 <p>by Robert Kiyosaki</p>
+                <p>Learn the secrets of wealth building and financial independence from YOUR Poor Dad and YOUR Rich
+                    Daddy.</p>
                 <div class="rating">★★★★★</div>
                 <div class="price">£19.99</div>
                 <button class="add-to-cart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
             </div>
         </div>
+    </section>
+
+    <!-- Reviews Section  ON HOLD FOR NOW-->
+    <!-- 
+     <section class="reviews" id="reviews">
+         <div class="section-header">
+             <h2>What Our Readers Say</h2>
+         </div>
+
+         <div class="reviews-grid">
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="" alt="">
+                </div>
+            </div>
+
+         </div>
+         
      </section>
+    -->
 
     <!-- JavaScript file -->
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
