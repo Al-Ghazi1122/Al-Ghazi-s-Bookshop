@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pay.html">Pay</a>
+    </nav>
+
+    <main class="container">
+        <h1>Payment Details</h1>
+        <p>Please enter your Mastercard details below.</p>
+
+        <form id="payment-form">
+            <div class="form-group">
+                <label for="card-number">Card Number (16 digits):</label>
+                <input type="text" id="card-number" placeholder="5100 0000 0000 0000" required>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="expiry">Expiry Date (MM/YY):</label>
+                    <input type="text" id="expiry" placeholder="MM/YY" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" placeholder="123" required>
+                </div>
+            </div>
+
+            <a href="success.html" class="add-to-cart">Continue to Payment</a>
+        </form>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
